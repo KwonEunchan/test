@@ -28,7 +28,7 @@ function App() {
       display: 'block', // Show the logo
       position: 'absolute',
       left: `${touchX-25}px`, // Position the logo at the touch X position (adjust the offset to center)
-      top: `${touchY-55}px`, // Position logo vertically based on touch Y position
+      top: `${touchY}px`, // Position logo vertically based on touch Y position
       width: '70px', // Set logo width to 10px
       height: '60px', // Set logo height to 10px
     });
